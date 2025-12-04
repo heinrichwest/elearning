@@ -1,0 +1,68 @@
+How do i reset my password?
+Go to app.tap.co.za . Enter your username, then click Forgot Password. Click Next. A new popup will appear – enter your username again and click Continue Process. You will receive a One-Time Pin (OTP) at your registered email address. On the app.tap.co.za page, enter the OTP you received. Once verified, you will be prompted to create a new password. Submit your new password, and your login will be updated successfully.
+
+
+How do i change my Username?
+To request a username change, please send an email to help@speccon.co.za . In your email, include: Your current username (the one you are using now). The new username you would like to change it to. For security reasons, you’ll also be asked a few verification questions to confirm ownership of the account.
+
+
+How do i deactivate or reactive my account?
+To deactivate your account: Go to My Settings. Scroll to the bottom of the page and select Delete Account. Click Disable Account. To reactivate your account: Visit app.tap.co.za . Enter your username. You will receive an email from notify@tap.co.za with instructions. Open the email and click Activate Account. You will be redirected back to app.tap.co.za. Click Login, then enter your username and password to access your account again.
+
+How do i set up my CV?
+Setting Up Your CV Navigate to My CV on the top bar of your screen. Complete the different sections provided — these settings allow you to customize all the information shown on your CV. Take your time to fill in all the required details. Once done, scroll to the bottom of the My CV page. Click Download My CV to save a copy.
+
+Need Help?
+If you need any assistance, feel free to reach out to our technical support team by emailing help@speccon.co.za
+
+
+Can i Import bulk users?
+Make sure you are assigned the Admin role. Navigate to More &gt; User Management &gt; Add User &gt; Bulk Import. Follow the on-screen instructions provided, they will guide you through the bulk import process step by step.
+
+Can I assign individuals specific courses?
+Yes, follow the following steps:Click on More; Manage Teams; Click on the icon for the team you want to assign courses to Scroll down and search for the course
+ you want to assign; Click on the icon to assign the course; Select the deadline; Select the person to assign the course to; Click on 
+
+
+What is the difference in functionality between Lite and Premium version of the system?
+The only difference is the number of courses. Lite has 20 courses and Premium has 300+ courses
+
+How many of the following users can I have assigned on the system?
+Admin HR Admin Manager Team Leader
+
+When loading new employees onto the system individually, there is an option to choose their role: Manager, Lead, Admin &amp; Employee. What is the difference in functionality / access between these roles?
+User roles: Admin • Administrators of the systems can perform all functions on the front-end of the system that is configurable. HR Admin • HR Admin can do everything that Admins can do apart from: • Assigning Administrators and HR Administrators • Configuring the Theme of the site. Employee • Employee users can only access: • My Profile • My Courses • My Teams • Course Library • Employee users cannot configure any features that affect the larger organisation. Teams roles: Manager • Managers are assigned in Manage Teams • They can: o Access Manage Teams o Add and Remove Team Members o Assign team leaders o Assign courses and deadlines o Extend deadlines o Remove assigned courses • They cannot: o Create Teams o Access any other administrative functions (Unless they are also an administrator or HR) Team Leader • Team Leaders are assigned in Manage Teams • Team Leaders can do everything Manager can apart from: o Assigning and removing member in a team.
+
+
+When loading new employees onto the system individually, there is an option to choose their role: Manager, Lead, Admin, Employee. What is the difference in functionality / access between these roles?
+User roles: Admin • Administrators of the systems can perform all functions on the front-end of the system that is configurable. HR Admin • HR Admin can do everything that Admins can do apart from: • Assigning Administrators and HR Administrators • Configuring the Theme of the site. Employee • Employee users can only access: • My Profile • My Courses • My Teams • Course Library • Employee users cannot configure any features that affect the larger organisation. Teams roles: Manager • Managers are assigned in Manage Teams • They can: o Access Manage Teams o Add and Remove Team Members o Assign team leaders o Assign courses and deadlines o Extend deadlines o Remove assigned courses • They cannot: o Create Teams o Access any other administrative functions (Unless they are also an administrator or HR) Team Leader • Team Leaders are assigned in Manage Teams • Team Leaders can do everything Manager can apart from: o Assigning and removing member in a team.
+
+Can I download the information on the system into Excel reports?
+Yes, follow the following steps: Click on More -&gt; Reports; Click on the icon and choose the format of the download required.
+
+
+What is TAP?
+TAP is a platform where you can register for short courses and skills development. You can access it at https://app.tap.co.za/
+
+
+What is the difference between TAP Business and TAP Academy
+TAP Business is designed for companies that want to upskill and develop their internal workforce. TAP Academy is focused on learners from Grade RR to Grade 12, helping children improve in their subjects while also allowing parents to identify areas where their child may be struggling.
+
+Are the courses on TAP Edge accredited?
+No, all courses on TAP Edge are non-accredited.
+
+
+Do I get a stipend for completing a course on TAP?
+"No, stipends are only provided to individuals enrolled in a learnership. If you are registered for TAP or completing a short course, no payment or stipend will be issued."
+
+
+What is the Migration Process?
+To request a migration, please email help@speccon.co.za . If you log in at training.elearning.co.za, you are eligible to migrate to the new system. If you already log in at app.tap.co.za, you are on the new system and do not need to migrate.
+
+How do i register for a Individual Tap Account?
+Please visist app.tap.co.za &gt; New Account and fill in the required details.
+
+
+
+
+

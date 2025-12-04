@@ -1,0 +1,23 @@
+Duration:
+2h 40m
+Tags
+Information Technology
+Information Technology (IT)
+Overview
+Efficient management of a Local Area Network (LAN) is critical to maintaining the performance, security, and reliability of an organisation’s IT infrastructure. This course equips learners with the knowledge and skills to manage network resources, control access, optimise performance, and protect against security threats. Learners will explore practical approaches to monitoring and maintaining a LAN, addressing both technical and operational challenges.
+
+Description
+This course provides a comprehensive introduction to the issues affecting the management of a Local Area Network (LAN). Learners begin by exploring access management, identifying network resources whose access can be controlled, determining access levels for different user categories, and evaluating methods for enforcing access restrictions. The purpose and use of access audit trails are examined to ensure accountability and compliance with organisational policies. The course then focuses on LAN performance, addressing factors that affect response times and the need for continuous monitoring and problem identification. Learners will explore diagnostic tools for collecting performance data, and compare different methods for improving network performance, evaluating their effects on overall efficiency. By the end of the course, learners will be able to manage a LAN effectively, optimising access, performance, and security while addressing the operational challenges associated with network administration.
+
+Unit 1: Set up user access to a local area computer network
+1. The explanation identifies resources whose access can be managed. 2. The explanation outlines the level of access to different categories of people. 3. The explanation outlines methods of controlling access. 4. The explanation outlines the purpose of the access audit trail.
+
+Unit 2: Explain local area computer network performance issues
+1. The explanation describes a range of factors that affect response times on a LAN. 2. The explanation outlines the need to analyse data and identify problems. 3. The explanation outlines how diagnostic tools are used to collect data. 4. The explanation outlines and compares methods for improving the performance with respect to their effect on performance.
+
+Unit 3: Explain local area computer network support issues
+1. The explanation distinguishes sources. 2. The explanation outlines user expectations of a range of support options.
+
+Unit 4: Explain typical viruses on local area computer networks
+1. The explanation outlines the symptoms and transmission of viruses. 
+2. 

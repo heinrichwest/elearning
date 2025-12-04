@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"(Get-Content -Path ''./elements/layouthelpers.html'' -Raw) -replace ''logo-dark\\.png'',''KJ styles.jpeg'' -replace ''logo-light\\.png'',''KJ styles.jpeg'' | Set-Content -Path ''./elements/layouthelpers.html''\")",
+      "Bash(powershell:*)",
+      "Bash(move \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\newsletter.html\" \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\contact-us.html\")",
+      "Bash(python update_terms.py:*)",
+      "Bash(del terms-modal-template.txt update_terms.py)",
+      "Bash(del \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\update_paths.ps1\")",
+      "Bash(del \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\update_icons_to_orange.ps1\" \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\update_icons_comprehensive.ps1\")",
+      "Bash(python:*)",
+      "Bash(del \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\convert_favicon.py\")",
+      "Bash(dir \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\assets\\img\\favicons\\*.png\" /B)",
+      "Bash(dir \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\assets\\img\" /B)",
+      "Bash(del \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\update_login_buttons.py\")",
+      "Bash(dir \"C:\\Users\\Speccon\\Documents\\Websites\\eLearning\\Page content\" /B)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(del categorize_courses.py)",
+      "Bash(git add:*)",
+      "Bash(del \",  -replace \")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

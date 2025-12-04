@@ -1,0 +1,16 @@
+Duration:
+2h 40m
+Tags
+Information Technology
+Information Technology (IT)
+Overview
+Beneath the cables and blinking lights of modern computing lies a vital foundation - local area networks (LANs) that quietly power connectivity and collaboration. This course unpacks the essentials of LANs by guiding learners through both theory and hands-on workstation installation.
+
+Description
+This course introduces the core principles and components of Local Area Networks (LANs), offering a practical understanding of their purpose, configurations, protocols, and transport media. Learners will gain experience by installing a networked workstation, adhering to manufacturer and industry standards. They will also learn to troubleshoot issues, document installations in line with organisational requirements, and maintain professional workplace standards. Designed for those entering IT support or network administration, the course builds foundational knowledge and practical skills for working within modern networked environments.
+
+Unit 1: Explain local area computer networks (LANs)
+1. The explanation identifies the components of a LAN and outlines its purpose. 2. The explanation identifies the purpose of a LAN. 3. The explanation identifies and compares LAN configurations. 4. The explanation identifies and compares LAN protocols. 5. The explanation identifies and compares LAN transport media.
+
+Unit 2: Install a network workstation in a local area network according to industry standards
+1. The installation is by the manufacturer, user, and industry requirements. 2. The installation is tested for problems and resolves any problems encountered. 3. The installation completes documentation according to organisational requirements. 4. The installation ensures that the workplace is left clean and tidy according to industry practice.

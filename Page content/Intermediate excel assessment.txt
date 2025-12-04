@@ -1,0 +1,68 @@
+Intermediate Excel Assessment
+3.0
+Duration:
+1h 30m
+Tags
+Assessments and Skills Testing
+Overview
+Welcome to the Intermediate Excel Assessment: Test your proficiency in advanced features like Referencing, Charts, Formulas, and more. Identify areas for improvement and gauge your Excel skills. 2 initial attempts and a retry after 4 weeks provided. Good luck!
+
+Description
+This assessment aims to test your knowledge and understanding of Excel's more advanced features and functionalities. It covers a range of topics, including Referencing, Tables, Charts, More advanced formulas, dates and more advanced functions. By completing this assessment, you will be able to assess your current level of Excel proficiency and identify areas where you may need further improvement. If you do not know the answer, choose "I Don't Know". This assessment tests your level of Intermediate Excel.
+
+
+Module 1: Getting Started with Excel
+Understanding the Excel interface
+Ribbon, tabs, and quick access toolbar
+Workbooks vs worksheets
+Creating, opening, and saving files
+Basic navigation techniques
+
+
+Module 2: Working with Data
+Data entry best practices
+Selecting cells, ranges, and regions
+Copy, cut, paste, and paste special
+AutoFill and Flash Fill features
+Find and replace functionality
+
+Module 3: Formulas and Basic Functions
+Understanding formulas vs values
+Basic arithmetic operations
+Cell references (relative vs absolute)
+SUM, AVERAGE, MIN, MAX functions
+COUNT and COUNTA functions
+Introduction to IF function
+
+Module 4: Formatting and Presentation
+Cell formatting (fonts, colors, borders)
+Number formatting (currency, dates, percentages)
+Column width and row height adjustment
+Merging and centering cells
+Applying styles and themes
+
+
+Module 5: Data Visualization and Charts
+Creating basic charts (column, bar, line, pie)
+Chart elements and customization
+Formatting chart data
+Chart layouts and styles
+When to use different chart types
+
+
+Module 6: Data Management Basics
+Sorting data (single and multiple columns)
+Filtering data with AutoFilter
+Basic data validation rules
+Removing duplicates
+Freezing panes for navigation
+
+
+Module 7: Printing and Sharing
+Page setup and print preview
+Headers and footers
+Page breaks and print area
+Scaling and orientation
+Saving in different formats (PDF, CSV)
+
+

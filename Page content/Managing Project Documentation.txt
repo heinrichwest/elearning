@@ -1,0 +1,28 @@
+Duration:
+3h 20m
+Tags
+Project Management
+Project management
+Supervisor: Performance and Administrative Oversight
+Overview
+Amid the shifting tides of projects, order is crafted through the discipline of records—structured, safeguarded, and poised for action.
+
+Description
+This course equips learners with the skills to design, implement, and maintain effective project documentation systems that support the entire project lifecycle. Topics include developing filing systems, managing document versions, ensuring compliance with quality and confidentiality standards, and preparing comprehensive handover documentation. Emphasis is placed on aligning documentation practices with project goals to enhance access, traceability, and overall project efficiency.
+
+
+Unit 1: Use a paper based and electronic filing system for a project
+1. A filing system exclusively for the project is developed and utilised according to project needs 2. Project files are clearly named and structured to enable easy filing or retrieval 3. An inventory of the project documentation is prepared and maintained in accordance with the agreed filling system 4. An audit trail for project documentation is maintained according to the agreed filing system 5. All files and documentation are maintained to ensure they are current, up-to-date, neat, and clean
+
+Unit 2: Use standardised processes for identifying, securing and finding documents
+1. All documents are named and filed to the agreed standards 2. The filing system is structured and indexed reflecting project, sub-project, phase and stage levels, management, quality, and specialist (technical) products 3. Multiple versions of documents are correctly filed and annotated in accordance with the agreed filing system 4. Back-up and archive processes are identified and utilised in accordance with the agreed filing system 5. Sensitive and /or confidential documents are kept in safe custody
+
+Unit 3: Provide project templates to team members
+1. Templates are prepared in accordance with requirements and accepted standards 2. Templates and their components are identified and explained in terms of how they should be used 3. Procedures for the usage of templates are explained and communicated to team members
+
+Unit 4: Assist in preparing project documents for handover at the end of a project or a project phase or stage
+1. Handover project documents are prepared in the correct format and within the agreed time frame 2. Handover project documents are complete, concise, and in the required location and are handed over to appropriate individualsUnit 5: Describe and explain project documentation management processes
+1. The documentation system requirements are explained in relation to the quality, access, and traceability 2. Document control requirements for a project are explained with reasons for the control 3. Storage and retrieval functions and processes are explained with examples of each 4. The benefits of documentation management for a project are explained with examples
+
+Unit 5: Describe and explain project documentation management processes
+1. The documentation system requirements are explained in relation to the quality, access, and traceability 2. Document control requirements for a project are explained with reasons for the control 3. Storage and retrieval functions and processes are explained with examples of each 4. The benefits of documentation management for a project are explained with examples

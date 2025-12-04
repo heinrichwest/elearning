@@ -1,0 +1,32 @@
+Introduction
+Welcome to SpecCon! As the internet transcends borders, using it to collect and process personal data involves global data transmission. By browsing our website, you acknowledge and agree to how we handle your personal data. Your use of any SpecCon website signifies your agreement to be bound by this privacy policy.
+
+
+1. Information Collection
+When using our services, you may voluntarily provide personally identifiable information (PII) such as your name, email, address, phone number, and IP address. Additionally, we automatically collect non-PII like IP host address, web pages viewed, and browser type. While we take precautions to prevent unintentional collection of PII, if you believe we've collected your personal information inadvertently, please notify us at itsupport@elearning.co.za.
+
+
+2. Information Collection Timing and Purpose
+We collect information when you register, place orders, subscribe to newsletters, opt-in to our email list, or fill out forms. We use your PII to respond to inquiries, send emails about our services, and won't share it with third parties without your consent.
+
+
+3. Methods of Information Collection
+We employ cookies, web beacons, and embedded scripts for data collection. These technologies help us identify your device, track affiliate referrals, and enhance your overall experience.
+
+
+4. Information Sharing
+We may share your PII with third-party vendors for specific purposes like payment processing. Please review the privacy practices of these vendors. We may disclose PII when required by law or to investigate fraud or violations.
+
+
+5. Log File Information
+Our server automatically logs information such as pages viewed, browser type, and location data. This helps us improve our services and understand user interactions.
+
+
+6. Privacy and Confidentiality
+We are committed to upholding the highest privacy and confidentiality standards. Exceptions to this commitment include legal requirements, protection of rights, enforcement of terms of use, and safeguarding user interests.
+
+
+7. Data Storage
+Your data is stored in South Africa and Germany, and we ensure full compliance with the Protection of Personal Information Act and relevant sections of the GDPR.
+
+This privacy policy aims to be transparent about our practices. If you have any questions or concerns, feel free to contact us at

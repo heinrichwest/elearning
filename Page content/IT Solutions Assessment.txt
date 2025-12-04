@@ -1,0 +1,26 @@
+Overview
+Ensuring that proposed solution designs align with requirements.
+
+Description
+Ensuring that proposed solution designs align with requirements, assigning requirements to specific releases or solution components, assessing organisational readiness to operate the new solution, validating that the deployed solution meets business objectives, and evaluating the value of the deployed solution to the business are key considerations in this context.
+
+
+
+Duration:
+1h 50m
+
+Unit 1: Determine the conformance of solutions design options with requirements
+1. Solution design options and requirements documentation are assessed to determine which will best meet the stated requirements 2. Various work products assist with soliciting and evaluating different design options 3. A solution design assessment is produced to demonstrate how well the possible design solutions meet the stated requirements
+
+Unit 2: Allocate requirements to specific releases or solutions components
+1. Various work products are analysed with stakeholders to determine requirement priorities and allocate the requirements to a release schedule 2. Different release options are designed to maximise the possible business value given the options and alternatives 3. Different implementation approaches are planned and designed to maximise the possible business value given the options and alternatives 4. A recommended release or delivery strategy is produced to assign requirements to a release schedule
+
+Unit 3: Determine organizational readiness to effectively operate the new solution
+1. Various work products are analysed to determine the organisational readiness to implement the recommended solution 2. An organisational readiness assessment is conducted to assess the organisation regarding the recommended solution 3. An optimal deployment strategy is established to ensure the effective implementation of the solution 4. Work products are produced to document the organisational readiness and deployment strategy
+
+Unit 4: Validate that the deployed solution meets the business objectives
+1. The deployed solution is compared to the validated requirements document to validate whether the verified and deployed solution meets the agreed business objectives 2. Acceptance criteria, including the level of conformance to requirements that are acceptable, are defined to determine how the deployed solution will be validated 3. Defects and shortcomings in the deployed solution are determined to identify where the solution does not meet the business requirements 4. The impact of the defects and shortcomings is analysed to determine their effect on the business 5. Corrective actions are defined and established to fix defects and shortcomings 6. The implementation of corrective actions is validated to ensure that the defects have been fixed 7. Work products are produced to ensure that the solution has been validated
+
+Unit 5: Assess the value of the solution as deployed to the business
+1. The deployed solution is measured against agreed metrics to assess whether business objectives have been met 2. The actual project costs are compared to the originally estimated costs to highlight any additional costs that have been incurred 3. The actual benefits of the deployed solution are compared to the originally estimated benefits to highlight whether the estimated benefits have indeed accrued 4. A post-implementation review is conducted to assess the success of a project and provide benchmarks for continuous improvement 5. Solution impacts are communicated to all stakeholders to facilitate organisational learning and continuous improvement
+

@@ -1,0 +1,26 @@
+Duration:
+3h 20m
+Tags
+Communication and Interpersonal skills
+Information Technology (IT)
+Overview
+Effective requirements management is essential for delivering successful business solutions that meet stakeholder needs. This course equips learners with the knowledge and skills needed to manage requirement changes, maintain traceability, perform impact analysis, and communicate effectively with all stakeholders throughout the project lifecycle. Learners will gain the ability to package, maintain, and re-use requirements while ensuring that all project participants understand, approve, and adhere to the documented requirements.
+
+Description
+This course provides a comprehensive understanding of how to manage, control, communicate, and maintain business requirements throughout a project’s duration and beyond. The content begins with an exploration of requirements change control. Learners will understand how both formal and informal changes to requirements are approved and documented to ensure alignment with stakeholder needs. They will learn to identify and resolve conflicts, prioritise changes, and maintain multiple versions of requirements artefacts to ensure full traceability and adherence to change control procedures. By the end of the course, learners will be able to manage requirement changes with confidence, ensure full traceability and consistency, maintain strong stakeholder relationships, and support the successful delivery of business solutions aligned with organisational goals.
+
+Unit 1: Ensure that changes to project work products are agreed by all stakeholders and documented
+1. Formal and informal changes to requirements are approved and documented to ensure that all stakeholder needs are met. 2. Conflicts and issues with requirements are highlighted and resolved to ensure that consensus is reached between all stakeholders regarding the most appropriate solution. 3. Changes to requirements are prioritised to allow the selection, design, and development of the most appropriate solution. 4. Multiple versions of requirements work products are maintained to ensure that changes can be traced by change control procedures.
+
+
+Unit 2: Maintain relationships between components to trace requirement changes and update relevant documentation
+1. The relationships between the various requirements components are maintained to ensure consistency. 2. An impact analysis is performed when changes are requested to ensure the plan can be updated. 3. Impact analysis information is produced to ensure that agreed-upon changes are included in the process. 4. Support activities ensure that the solution assessment and validation include the changed requirements.
+
+Unit 3: Maintain requirements for re-use
+1. The requirements to be maintained are selected after solution implementation. 2. Name the responsible party who will maintain the requirements (i.e., custodian, librarian). 3. The responsible party is identified too. 4. Facilitate ongoing use of requirements for impact analysis and solution maintenance. 5. Facilitate re-use of requirements on related projects to encourage enterprise consistency of business models.
+
+Unit 4: Prepare a requirements package
+1. Use the agreed requirements and business communication plan to determine the requirements package. 2. Determine appropriate format for requirements. 3. Create a requirement package.
+
+Unit 5: Communicate requirements and changes to all stakeholders
+1. The requirements package and business communication plan are used to communicate with all stakeholders appropriately. 2. Interaction with stakeholders takes place before, during, and after the project to ensure that they are informed and participate in decision-making. 3. Each activity in the business analysis process involves communication on different levels. 4. Interaction with the solution team to assure that requirements are correctly understood and implemented. 5. All requirements are communicated and understood by all parties involved in the project.

@@ -1,0 +1,20 @@
+2h 50m
+Tags
+Information Technology
+Information Technology (IT)
+Overview
+In today’s information-driven world, the ability to manage, develop, and control systems effectively is fundamental to organisational success. This course guides learners through the structure and function of organisational information systems, equipping them with the analytical and practical tools needed to harness data, manage risks, and support strategic goals through technology and innovation.
+
+Description
+This course delves into the critical role of information systems in organisational control, behaviour, and decision-making. Learners will explore the impact of economic, technical, operational, and behavioural risks associated with information, and evaluate how evolving management theories influence the Systems Development Life Cycle (SDLC). With a focus on practical implementation, the course covers system analysis and design, information requirements gathering, documentation, and feasibility studies. Learners will gain hands-on experience in managing SDLC phases, developing system acquisition policies, and maintaining control through structured evaluation and testing. Emphasis is placed on aligning information systems with organisational needs for optimal performance and growth.
+
+
+Unit 1: Demonstrate an understanding of the role of information in organisation design and behaviour
+1. The role of information in organisation control and behaviour is described to clients in a meaningful manner. 2. Current terminology describes economic, technical, operational, and behavioural risks associated with information in organisations. 3. The effects of new development techniques and management theories on the formal systems development lifecycle are evaluated and explained in line with organisational status. 4. The Systems Development Life Cycle (SDLC) is described in relation to project management and documentation requirements. 5. Databases and database management systems are explained to clients regarding organisation, acquisition, storage, access, sharing, control, and implications.
+
+Unit 2: Participate in the analysis and design of information systems
+1. System analysis and design techniques appropriate to the organisational structure and requirements are applied. 2. The organisation's information requirements are elicited utilising appropriate communication techniques. 3. All relevant documentation is compiled in accordance with organisational and system needs. 4. Systems are sourced and designed to meet the organisation's information requirements.
+
+Unit 3: Maintain control over system development processes
+1. Investigation and feasibility studies are conducted to evaluate and control system development. 2. The phases of the SDLC are adhered to and changes are made when necessary. 3. System acquisition policies are formulated and monitored on an ongoing basis. 4. Control over system development processes is maintained through continuous, accepted evaluation and testing procedures.
+

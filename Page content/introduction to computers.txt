@@ -1,0 +1,74 @@
+
+This course explains what a computer is and what it does, looking at the different elements of a computer, including the hardware and software components. You will learn the basic functions of a computer, how to hold and operate a mouse and a keyboard, how to open and close programs and documents, and many more exciting features
+Firstly, are you new to the world of technology? If so, this Introduction to Computers course is the perfect place to start. To begin with, you will learn what a computer is and how it works. Soon after, you will discover how to use a keyboard, mouse, and screen properly. In just a short time, you will gain the skills to open, save, and organise your files.
+
+Moreover, the course is simple, clear, and fun to follow. Along the way, you will get helpful tips, easy examples, and step-by-step support. Not only that, but you will also explore the internet and email with confidence. Because everything is online, you can study anytime, anywhere, and at your own pace. As a result, learning becomes smooth and stress-free. So, why wait any longer? Right now is the best time to begin your exciting journey into the digital world. After all, gaining computer skills today opens many doors tomorrow.
+
+
+
+Accreditation:Non-accredited – practical, skills-focused learning
+Duration:1h 30m
+Delivery:Online, Classroom, or Blended
+Access:12 Months
+
+What You Will Gain From This Course
+
+First, understand how a computer works.
+Next, know how to use a keyboard and mouse.
+Then, learn to open, save, and organise files.
+After that, explore the basics of the internet and email.
+Finally, build skills that help you in the digital world.
+
+Unit 1: Introduction to computers
++
+What is a computer
+What are hardware and software
+Different types of computers
+What is a storage device
+
+
+Unit 2: Input devices
++
+What is an input device
+How to hold a mouse
+How to use a mouse
+Exploring the Keyboard
+
+Unit 3: Output devices
++
+What is an output device
+Printing
+
+Unit 4: Software
++
+What is an operating system
+Exploring the Desktop
+Managing files with File Explorer
+Exploring the Taskbar
+Personalise your desktop
+What is application software
+Open and save applications
+Help and support facilities
+
+Unit 5: Internet and networks
++
+Introduction
+The Internet and different networks
+Network Components and Signing in
+Types of telephone network connections
+The World Wide Web
+Internet and Web Applications
+Modems
+Browsers and ISPs
+Bandwidth
+Types of Internet Access
+Surfing strategies
+Benefits and Limits of the Internet
+
+
+Unit 6: Setting up a computer workstation according to ergonomic and health and safety principles
++
+Computer ergonomics
+Computer Health and Safety
+Setting up a computer Workstation
+Environmentally responsible practices

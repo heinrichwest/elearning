@@ -1,0 +1,26 @@
+Duration:
+3h 30m
+Tags
+Information Technology
+Information Technology (IT)
+Overview
+Where data meets design, and logic meets language—this course bridges the gap between software and database, ensuring your applications don’t just run, but respond.
+
+Description
+This course teaches you how to create secure, efficient, and scalable database access using SQL. You’ll learn to evaluate requirements, design effective database structures, write clean, reliable code, and maintain data integrity in multi-user environments. The course also covers testing for performance and accuracy, as well as documentation best practices. By the end, you’ll be equipped to build and manage SQL-based data access solutions with confidence.
+
+
+Unit 1: Review the requirements for database access for a computer application using SQL
+1. The review identifies and explains the feasibility of the requirements. 2. The review identifies the database access objectives and critical performance factors. 3. The review estimates the development effort required so that the cost may be estimated. 4. A review procedure is adopted, which ensures that the outcomes meet the database access requirements.
+
+Unit 2: Design database access for a computer application using SQL
+1. The design implements user requirements. 2. The design of the database structure resembles the output from the data analysis. 3. The methods of accessing data are identified. 4. The key relationships between the tables within the database are identified. 5. The data types for primary and foreign keys are consistent throughout the database.
+
+Unit 3: Write program code for database access for a computer application using SQL
+1. The program code implements the program design. 2. The program code uses language constructs that facilitate the understanding of the code. 3. The program code utilises the optimising features of the languages being used. 4. The program code uses language instructions that facilitate the understanding of the code. 5. The program code uses language constructs that facilitate the understanding of the code. 6. Tables joined in a query are essential to its outcome. 7. The program code uses constructs that preserve the integrity of the data being accessed by multiple users and processes. 8. Global data sharing is minimised to enable weak coupling, and modules exhibit functional cohesion.
+
+Unit 4: Test programs for a computer application that accesses a database using SQL
+1. The testing checks all program logic paths. 2. The testing corrects program code to eliminate errors identified through testing. 3. The testing verifies that the database access functions in the required environment. 4. The testing verifies that the database access performs according to the design requirements. 5. The testing verifies that the database access functions according to the design requirements.
+
+Unit 5: Document programs for a computer application that accesses a database using SQL
+1. The documentation enhances the understanding of the program code 2. The documentation complements the self-documenting attributes of the program code

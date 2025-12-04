@@ -1,0 +1,143 @@
+Course Overview
+The Advanced Excel Assessment is designed to evaluate your proficiency in complex Excel tools, formulas, and data analysis techniques. This assessment measures your ability to apply advanced Excel concepts in real-world business and data scenarios — from automation to analytics.
+
+Whether you’ve completed an advanced Excel course or gained your skills through hands-on experience, this assessment helps you validate your expertise and earn a recognized certification that demonstrates your professional capability.
+
+Purpose of the Assessment
+
+Test mastery of advanced Excel concepts and tools
+
+Evaluate real-world problem-solving skills using data sets
+
+Identify areas of strength and improvement
+
+Earn an accredited certificate showcasing advanced proficiency
+
+Duration
+60–90 Minutes
+Online assessment (self-paced)
+
+Certification
+Accredited Advanced Excel Certificate
+Awarded upon successful completion with a passing score
+
+Assessment Level
+Advanced
+Recommended for individuals with prior Excel experience
+
+Skills Tested
+
+1. Advanced Formulas and Functions
+
+Nested IF statements and logical functions
+
+Lookup functions (VLOOKUP, HLOOKUP, XLOOKUP, INDEX & MATCH)
+
+Text and date manipulation functions
+
+Dynamic array functions (FILTER, SORT, UNIQUE, SEQUENCE)
+
+2. Data Analysis and Visualization
+
+Creating and customizing pivot tables and pivot charts
+
+Using slicers and timelines for interactive reports
+
+Building dynamic dashboards
+
+Applying conditional formatting for analytical insights
+
+3. Data Management and Cleaning
+
+Using Power Query for data import and transformation
+
+Data validation and error checking
+
+Removing duplicates and consolidating datasets
+
+4. Automation and Productivity
+
+Introduction to Macros and VBA fundamentals
+
+Recording and running macros
+
+Automating repetitive tasks
+
+5. Scenario and Forecasting Tools
+
+Using What-If Analysis tools (Goal Seek, Scenario Manager, Data Tables)
+
+Building financial models and forecasts
+
+Performing sensitivity and trend analysis
+
+6. Collaboration and Protection
+
+Sharing and protecting workbooks
+
+Track changes and version control
+
+Excel integration with other Microsoft tools (Power BI, Word, Outlook)
+
+Assessment Format
+
+Section A: Multiple-choice and true/false questions (concept-based)
+
+Section B: Practical case studies using downloadable Excel files
+
+Section C: Data analysis project — apply formulas, charts, and macros
+
+Passing Score: 70%
+
+Who Should Take This Assessment?
+
+Professionals seeking to certify advanced Excel skills
+
+Analysts and managers working with data and reporting tools
+
+Accountants and finance experts using Excel for modeling
+
+Students or job seekers looking to enhance their CV with verifiable Excel credentials
+
+Benefits of Taking the Assessment
+
+Validate your Excel expertise with an accredited certificate
+
+Gain measurable proof of your analytical and technical abilities
+
+Identify key skill gaps for further improvement
+
+Stand out in job applications and career advancement opportunities
+
+Requirements
+
+Microsoft Excel 2016 or later (including Office 365)
+
+Stable internet connection
+
+Basic understanding of Excel fundamentals
+
+After the Assessment
+You will receive:
+
+A detailed performance report
+
+Your official Advanced Excel Certificate (digital format)
+
+Recommendations for next learning steps (e.g., Power BI or Data Analysis courses)
+
+Need Help?
+Our support team is ready to assist with any technical or registration issues.
+
+📞 +27 10 123 4567
+📧 support@elearningsa.co.za
+
+Continue Your Learning Journey
+
+Power BI Course – Learn to visualize and interpret data using Microsoft Power BI.
+
+Data Analytics and Visualization – Master statistical tools and storytelling with data.
+
+Excel VBA Masterclass – Automate workflows and create custom Excel tools.
+
+© Copyright 2025 eLearning South Africa

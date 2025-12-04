@@ -1,0 +1,22 @@
+2h 40m
+Tags
+Information Technology
+Information Technology (IT)
+Overview
+Prepare to gather information by talking to different people, then write down what they say. After that, double-check and make sure the information meets everyone's needs. In summary, get ready, talk and document, then validate to ensure accuracy and meet requirements.
+
+Description
+This unit standard will enable learners to perform requirements elicitation to determine stakeholder needs. A learner credited with this unit standard will be able to prepare for requirements elicitation, conduct a variety of activities to elicit requirements from all stakeholders, document elicitation results and confirm elicitation results.
+
+
+Unit 1: Identify business needs, opportunities and requirements
+1. The internal and external business environment and architecture are analysed within the scope of a designated business mandate. 2. The current state of technology is assessed in order to inform solution architecture and clarify business problems. 3. The business problem, opportunities and/or needs are analysed in order to identify requirements for new solutions. 4. A gap analysis is performed to determine where the organisation is and where it wants to be. 5. Initial requirements are derived and documented in order to clarify solution scope.
+
+Unit 2: Determine an approach to identifying the most appropriate solution
+1. The potential solution approach options are identified in order to prepare for a feasibility analysis. 2. A feasibility analysis is conducted for each solution approach option to facilitate business decision making processes. 3. Viable potential solution approach is recommended to facilitate business decision making processes. 4. A feasibility study report is produced to communicate and validate the recommended solution approach with stakeholders.
+
+Unit 3: Define the project and solution scope
+1. The scope of work is defined using selected techniques in accordance with project standards in order to prepare the business case. 2. The ambit of investigation is defined using selected techniques in accordance with project standards in order to prepare the business case. 3. The solution scope is explored in order to prepare the business case. 4. The scope of work is established using selected techniques in order to prepare and present the business case. 5. The solution and project scope are clarified by listing exclusions.
+
+Unit 4: Develop the business case
+1. The benefits are identified and quantified for project justification purposes. 2. Costs are identified and quantified for project justification and control purposes. 3. An initial risks assessment is conducted for project feasibility purposes and to inform a risk management plan. 4. A business case is compiled and presented in order to facilitate project selection and decision making by business stakeholders.

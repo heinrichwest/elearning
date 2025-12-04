@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frequently Asked Questions | eLearning SA</title>
+    <meta name="description" content="Find answers to commonly asked questions about TAP, course registration, account management, and more.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <script src="vendors/overlayscrollbars/OverlayScrollbars.min.js"></script>
+
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="vendors/hamburgers/hamburgers.min.css" rel="stylesheet">
+    <link href="vendors/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/user.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <style>
+      .faq-accordion .accordion-button {
+        background-color: #12265E;
+        color: white;
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+
+      .faq-accordion .accordion-button:not(.collapsed) {
+        background-color: #ffa600;
+        color: white;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+      }
+
+      .faq-accordion .accordion-button:hover {
+        background-color: #ffa600;
+        color: white;
+      }
+
+      .faq-accordion .accordion-button:focus {
+        box-shadow: 0 0 0 0.25rem rgba(255, 166, 0, 0.25);
+        border-color: #ffa600;
+      }
+
+      .faq-accordion .accordion-button::after {
+        filter: brightness(0) invert(1);
+      }
+
+      .faq-accordion .accordion-body {
+        font-size: 1rem;
+        line-height: 1.8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
+      <div class="container">
+        <div class="row align-items-center gx-4">
+          <div class="col-auto d-none d-lg-block fs--1"><span class="fas fa-graduation-cap text-warning me-2" data-fa-transform="grow-3"></span>Professional Online Training & Certification</div>
+          <div class="col-auto ms-md-auto order-md-2 d-none d-sm-flex fs--1 align-items-center"><span class="fas fa-clock text-warning me-2" data-fa-transform="grow-3"></span>24/7 Online Access to Courses</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sticky-top navbar-elixir">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/TAP-Logo-Transparent-Background.png" alt="logo" height="50" /></a>
+          <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+          <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
+            <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1">
+              <li class="nav-item"><a class="nav-link" href="index.html" role="button">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about-us.html" role="button">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="tap-edge.html" role="button">TAP Edge</a></li>
+              <li class="nav-item"><a class="nav-link" href="tap-business.html" role="button">TAP Business</a></li>
+              <li class="nav-item"><a class="nav-link" href="short-courses.html" role="button">Courses</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact-us.html" role="button">Contact Us</a></li>
+            </ul>
+            <div class="ms-auto">
+              <a class="btn btn-primary" href="https://app.tap.co.za/login" target="_blank">Log In</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <main class="main" id="top">
+      <div class="preloader" id="preloader">
+        <div class="loader">
+          <div class="line-scale">
+            <div></div><div></div><div></div><div></div><div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="bg-primary py-8">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12 text-center">
+              <h1 class="fs-4 fs-md-5 text-white mt-4">Frequently Asked Questions</h1>
+              <p class="lead text-white mt-3">Find answers to commonly asked questions about TAP, courses, and account management</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white py-8">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="accordion faq-accordion" id="faqAccordion">
+
+                <!-- FAQ 1 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      How do I reset my password?
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <ol>
+                        <li>Go to <a href="https://app.tap.co.za" target="_blank">app.tap.co.za</a></li>
+                        <li>Enter your username, then click <strong>Forgot Password</strong></li>
+                        <li>Click <strong>Next</strong></li>
+                        <li>A new popup will appear – enter your username again and click <strong>Continue Process</strong></li>
+                        <li>You will receive a One-Time Pin (OTP) at your registered email address</li>
+                        <li>On the app.tap.co.za page, enter the OTP you received</li>
+                        <li>Once verified, you will be prompted to create a new password</li>
+                        <li>Submit your new password, and your login will be updated successfully</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      How do I change my Username?
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>To request a username change, please send an email to <a href="mailto:help@speccon.co.za">help@speccon.co.za</a></p>
+                      <p>In your email, include:</p>
+                      <ul>
+                        <li>Your current username (the one you are using now)</li>
+                        <li>The new username you would like to change it to</li>
+                      </ul>
+                      <p>For security reasons, you'll also be asked a few verification questions to confirm ownership of the account.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      How do I deactivate or reactivate my account?
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <h6 class="text-primary">To deactivate your account:</h6>
+                      <ol>
+                        <li>Go to <strong>My Settings</strong></li>
+                        <li>Scroll to the bottom of the page and select <strong>Delete Account</strong></li>
+                        <li>Click <strong>Disable Account</strong></li>
+                      </ol>
+
+                      <h6 class="text-primary mt-4">To reactivate your account:</h6>
+                      <ol>
+                        <li>Visit <a href="https://app.tap.co.za" target="_blank">app.tap.co.za</a></li>
+                        <li>Enter your username</li>
+                        <li>You will receive an email from notify@tap.co.za with instructions</li>
+                        <li>Open the email and click <strong>Activate Account</strong></li>
+                        <li>You will be redirected back to app.tap.co.za</li>
+                        <li>Click <strong>Login</strong>, then enter your username and password to access your account again</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      How do I set up my CV?
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <h6 class="text-primary">Setting Up Your CV</h6>
+                      <ol>
+                        <li>Navigate to <strong>My CV</strong> on the top bar of your screen</li>
+                        <li>Complete the different sections provided — these settings allow you to customize all the information shown on your CV</li>
+                        <li>Take your time to fill in all the required details</li>
+                        <li>Once done, scroll to the bottom of the My CV page</li>
+                        <li>Click <strong>Download My CV</strong> to save a copy</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Can I import bulk users?
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <ol>
+                        <li>Make sure you are assigned the <strong>Admin</strong> role</li>
+                        <li>Navigate to <strong>More &gt; User Management &gt; Add User &gt; Bulk Import</strong></li>
+                        <li>Follow the on-screen instructions provided, they will guide you through the bulk import process step by step</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      Can I assign individuals specific courses?
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>Yes, follow the following steps:</p>
+                      <ol>
+                        <li>Click on <strong>More</strong></li>
+                        <li>Click on <strong>Manage Teams</strong></li>
+                        <li>Click on the icon for the team you want to assign courses to</li>
+                        <li>Scroll down and search for the course you want to assign</li>
+                        <li>Click on the icon to assign the course</li>
+                        <li>Select the deadline</li>
+                        <li>Select the person to assign the course to</li>
+                        <li>Click confirm</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      What is the difference in functionality between Lite and Premium version of the system?
+                    </button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="faq7" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>The only difference is the number of courses:</p>
+                      <ul>
+                        <li><strong>Lite:</strong> 20 courses</li>
+                        <li><strong>Premium:</strong> 300+ courses</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      What is the difference in functionality/access between user roles?
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="faq8" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <h6 class="text-primary">User Roles:</h6>
+                      <p><strong>Admin</strong></p>
+                      <ul>
+                        <li>Administrators of the systems can perform all functions on the front-end of the system that is configurable</li>
+                      </ul>
+
+                      <p><strong>HR Admin</strong></p>
+                      <ul>
+                        <li>HR Admin can do everything that Admins can do apart from:
+                          <ul>
+                            <li>Assigning Administrators and HR Administrators</li>
+                            <li>Configuring the Theme of the site</li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                      <p><strong>Employee</strong></p>
+                      <ul>
+                        <li>Employee users can only access:
+                          <ul>
+                            <li>My Profile</li>
+                            <li>My Courses</li>
+                            <li>My Teams</li>
+                            <li>Course Library</li>
+                          </ul>
+                        </li>
+                        <li>Employee users cannot configure any features that affect the larger organisation</li>
+                      </ul>
+
+                      <h6 class="text-primary mt-4">Team Roles:</h6>
+                      <p><strong>Manager</strong></p>
+                      <ul>
+                        <li>Managers are assigned in Manage Teams</li>
+                        <li>They can:
+                          <ul>
+                            <li>Access Manage Teams</li>
+                            <li>Add and Remove Team Members</li>
+                            <li>Assign team leaders</li>
+                            <li>Assign courses and deadlines</li>
+                            <li>Extend deadlines</li>
+                            <li>Remove assigned courses</li>
+                          </ul>
+                        </li>
+                        <li>They cannot:
+                          <ul>
+                            <li>Create Teams</li>
+                            <li>Access any other administrative functions (Unless they are also an administrator or HR)</li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                      <p><strong>Team Leader</strong></p>
+                      <ul>
+                        <li>Team Leaders are assigned in Manage Teams</li>
+                        <li>Team Leaders can do everything Manager can apart from:
+                          <ul>
+                            <li>Assigning and removing member in a team</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      Can I download the information on the system into Excel reports?
+                    </button>
+                  </h2>
+                  <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="faq9" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>Yes, follow the following steps:</p>
+                      <ol>
+                        <li>Click on <strong>More</strong> &gt; <strong>Reports</strong></li>
+                        <li>Click on the icon and choose the format of the download required</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      What is TAP?
+                    </button>
+                  </h2>
+                  <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="faq10" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>TAP is a platform where you can register for short courses and skills development. You can access it at <a href="https://app.tap.co.za/" target="_blank">https://app.tap.co.za/</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 11 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                      What is the difference between TAP Business and TAP Academy?
+                    </button>
+                  </h2>
+                  <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="faq11" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <ul>
+                        <li><strong>TAP Business</strong> is designed for companies that want to upskill and develop their internal workforce</li>
+                        <li><strong>TAP Academy</strong> is focused on learners from Grade RR to Grade 12, helping children improve in their subjects while also allowing parents to identify areas where their child may be struggling</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 12 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq12">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                      Are the courses on TAP Edge accredited?
+                    </button>
+                  </h2>
+                  <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="faq12" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>No, all courses on TAP Edge are non-accredited.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 13 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq13">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                      Do I get a stipend for completing a course on TAP?
+                    </button>
+                  </h2>
+                  <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="faq13" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>No, stipends are only provided to individuals enrolled in a learnership. If you are registered for TAP or completing a short course, no payment or stipend will be issued.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 14 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq14">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                      What is the Migration Process?
+                    </button>
+                  </h2>
+                  <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="faq14" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>To request a migration, please email <a href="mailto:help@speccon.co.za">help@speccon.co.za</a></p>
+                      <ul>
+                        <li>If you log in at <strong>training.elearning.co.za</strong>, you are eligible to migrate to the new system</li>
+                        <li>If you already log in at <strong>app.tap.co.za</strong>, you are on the new system and do not need to migrate</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 15 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header" id="faq15">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                      How do I register for an Individual TAP Account?
+                    </button>
+                  </h2>
+                  <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="faq15" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      <p>Please visit <a href="https://app.tap.co.za" target="_blank">app.tap.co.za</a> &gt; <strong>New Account</strong> and fill in the required details.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Need Help Section -->
+              <div class="card mt-6" style="background: linear-gradient(135deg, #12265E 0%, #0d1940 100%); border: 3px solid #FFA600;">
+                <div class="card-body p-5 text-center">
+                  <h3 class="text-white mb-3"><i class="fas fa-question-circle me-2" style="color: #FFA600;"></i>Need Help?</h3>
+                  <p class="text-white lead mb-4">If you need any assistance, feel free to reach out to our technical support team</p>
+                  <a class="btn btn-warning btn-lg" href="mailto:help@speccon.co.za">
+                    <i class="fas fa-envelope me-2"></i>Email Support
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer style="background: linear-gradient(135deg, #12265E 0%, #0d1940 100%); position: relative; border-top: 4px solid #FFA600;">
+      <div class="container py-5">
+        <div class="row g-4">
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-4">
+              <img src="assets/img/TAP-Logo-Transparent.png" alt="TAP Logo" height="60" class="mb-3" />
+            </div>
+            <p style="color: white; font-size: 14px; line-height: 1.8;">
+              Empowering individuals and organisations through innovative online learning solutions. Transform your future with our comprehensive training programs.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">Quick Links</h5>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2">
+                <a href="index.html" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Home
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="tap-edge.html" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>TAP Edge
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="tap-business.html" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>TAP Business
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="short-courses.html" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>All Courses
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- About Us -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">About Us</h5>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#termsConditionsModal" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Terms and Conditions
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="faqs.html" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                  <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>FAQs
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">Contact Us</h5>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-3" style="color: white;">
+                <i class="fas fa-phone me-2" style="color: #FFA600;"></i>
+                <a href="tel:+27126674962" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">012 667 4962</a>
+              </li>
+              <li class="mb-3" style="color: white;">
+                <i class="fas fa-envelope me-2" style="color: #FFA600;"></i>
+                <a href="mailto:Help@speccon.co.za" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">Help@speccon.co.za</a>
+              </li>
+              <li class="mb-3" style="color: white;">
+                <i class="fas fa-globe me-2" style="color: #FFA600;"></i>
+                <a href="https://app.tap.co.za" target="_blank" class="text-decoration-none" style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">Learning Platform</a>
+              </li>
+            </ul>
+            <div class="mt-4">
+              <h6 class="text-white mb-3">Follow Us</h6>
+              <div class="d-flex gap-2">
+                <a href="https://www.linkedin.com/company/elearning-co-za/" target="_blank" class="text-decoration-none" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;" onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/elearning.co.za/" target="_blank" class="text-decoration-none" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;" onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/TapEdge" target="_blank" class="text-decoration-none" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;" onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="row mt-5 pt-4" style="border-top: 1px solid rgba(255,255,255,0.1);">
+          <div class="col-12 text-center">
+            <p class="mb-0" style="color: white; font-size: 14px;">
+              &copy; 2025 eLearning South Africa. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Terms and Conditions Modal -->
+    <div class="modal fade" id="termsConditionsModal" tabindex="-1" aria-labelledby="termsConditionsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content" style="background: linear-gradient(135deg, #12265E 0%, #0d1940 100%); border: 3px solid #FFA600;">
+          <div class="modal-header" style="border-bottom: 2px solid #FFA600;">
+            <h5 class="modal-title text-white" id="termsConditionsModalLabel"><i class="fas fa-file-contract me-2" style="color: #FFA600;"></i>Terms and Conditions</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: white;">
+            <h6 style="color: #FFA600; font-weight: bold;">Introduction</h6>
+            <p>Welcome to SpecCon Holdings (Pty) Ltd's online skills development, training, and learning platforms, available through websites such as www.speccon.co.za and www.elearning.co.za. These platforms are provided by SpecCon Holdings (Pty) Ltd., and your use is governed by the terms and conditions outlined below.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">1. Agreement Overview</h6>
+            <p>When using our services, you may voluntarily provide personally identifiable information (PII) such as your name, email, address, phone number, and IP address. Additionally, we automatically collect non-PII like IP host address, web pages viewed, and browser type. While we take precautions to prevent unintentional collection of PII, if you believe we've collected your personal information inadvertently, please notify us at itsupport@elearning.co.za.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">2. Proprietary Rights</h6>
+            <p>All intellectual property related to the Site, including content, patents, trademarks, copyrights, and more, is owned by SpecCon. You are granted a limited license to use the Site under specified conditions. The unauthorized use, modification, or distribution of any material is strictly prohibited.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">3. License Restrictions</h6>
+            <p>Your license is limited. Modifications, reproductions, or any unauthorized distribution of SpecCon's content are strictly prohibited. Deep links, scraping, or any automated device to access the Site are not allowed. Unauthorized use may result in termination of access.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">4. Third-Party Information/Products/Services/Links</h6>
+            <p>The Site may include information, links, or content related to third parties. SpecCon does not endorse or control these third-party offerings and is not responsible for their accuracy, quality, or legality.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">5. Disclaimer - No Warranties</h6>
+            <p>SpecCon provides the Site "as is" and disclaims any warranties, whether express or implied. SpecCon is not responsible for files' freedom from viruses or the accuracy of third-party materials.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">6. Limitation of Liability</h6>
+            <p>SpecCon is not liable for any incidental, consequential, or indirect damages arising from Site use. SpecCon's total liability for any dispute related to the Site shall not exceed the total amount paid by the User in the prior three months.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">7. Indemnification</h6>
+            <p>You agree to indemnify SpecCon against any claims, liabilities, or losses resulting from your breach of this Agreement.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">8. User Obligations</h6>
+            <p>Users must provide accurate information. SpecCon may terminate access for providing false information. Users must comply with all applicable laws and regulations.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">9. User Name and Password Policy</h6>
+            <p>Users are responsible for maintaining the confidentiality of their login details. Unauthorized use or loss of login information must be reported immediately to itsupport@speccon.co.za.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">10. Feedback and Submissions</h6>
+            <p>Users providing false information may have their access terminated. Users agree to abide by all applicable laws when using the Site.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">11. Privacy Policy</h6>
+            <p>Your use of certain programs, services, tools, or information on the Site may require the submission of personal information. Read our Privacy Policy before providing any data.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">12. Miscellaneous</h6>
+            <p>These terms are personal to the User and not assignable. No joint venture, employment, or agency relationship exists. SpecCon may assign its rights without notice.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">13. Severability</h6>
+            <p>If any provision is deemed invalid, it shall not affect the remaining provisions.</p>
+
+            <h6 style="color: #FFA600; font-weight: bold; margin-top: 1.5rem;">14. Subscription Services</h6>
+            <p><strong style="color: #FFA600;">Applicable Terms:</strong> Subscription terms prevail over general website terms.</p>
+            <p><strong style="color: #FFA600;">Access to Content:</strong> Access is granted upon payment of subscription fees and acceptance of terms.</p>
+            <p><strong style="color: #FFA600;">Updates:</strong> SpecCon maintains and updates the platform as needed.</p>
+            <p><strong style="color: #FFA600;">Information about You:</strong> SpecCon complies with data protection laws.</p>
+            <p><strong style="color: #FFA600;">Disabled, Dormant, and/or Terminated Accounts:</strong> Non-payment results in disabled accounts.</p>
+            <p><strong style="color: #FFA600;">Unauthorized Use of an Account:</strong> Unauthorized use leads to termination.</p>
+            <p><strong style="color: #FFA600;">Log-in Details:</strong> Users must keep login details private.</p>
+            <p><strong style="color: #FFA600;">Subscription Activation:</strong> Paid subscription fees activate access.</p>
+            <p><strong style="color: #FFA600;">Annual Subscription:</strong> Valid for 12 months, cancellable with notice.</p>
+            <p><strong style="color: #FFA600;">Monthly Subscription:</strong> Valid for one month, cancellable with notice.</p>
+            <p><strong style="color: #FFA600;">Intellectual Property Rights:</strong> All intellectual property remains SpecCon's.</p>
+            <p><strong style="color: #FFA600;">Full Access:</strong> Subscribers enjoy full access during the subscription period.</p>
+
+            <p style="margin-top: 1.5rem;">These terms are effective upon accessing the Site and continue until terminated. Certain provisions survive termination. Governing law is South Africa, and disputes shall be resolved through arbitration.</p>
+
+            <p style="margin-top: 1.5rem;"><strong>Thank you for choosing SpecCon!</strong></p>
+
+            <p style="margin-top: 1rem;">If you have any questions or concerns regarding these Terms and Conditions, please contact us at <a href="mailto:itsupport@elearning.co.za" style="color: #FFA600; text-decoration: none;">itsupport@elearning.co.za</a></p>
+
+          </div>
+          <div class="modal-footer" style="border-top: 2px solid #FFA600;">
+            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content" style="background: white; border: 3px solid #FFA600;">
+          <div class="modal-header" style="border-bottom: 2px solid #FFA600;">
+            <h5 class="modal-title" style="color: #12265E;" id="privacyPolicyModalLabel"><i class="fas fa-shield-alt me-2" style="color: #FFA600;"></i>Privacy Policy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="color: #12265E;">
+            <p>Welcome to SpecCon! We are committed to protecting your privacy and handling your personal data responsibly.</p>
+            <p class="mt-3">For our complete privacy policy, please contact <a href="mailto:help@speccon.co.za" style="color: #FFA600;">help@speccon.co.za</a></p>
+          </div>
+          <div class="modal-footer" style="border-top: 2px solid #FFA600;">
+            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/bigpicture/BigPicture.js"></script>
+    <script src="vendors/countup/countUp.umd.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/gsap/gsap.js"></script>
+    <script src="vendors/gsap/customEase.js"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
+

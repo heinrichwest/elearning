@@ -1,0 +1,39 @@
+3h 0m
+Tags
+Computer and Digital Skills
+Computer
+Excel
+Finance
+Overview
+Financial modelling is an essential skill for anyone involved in analysing business performance, planning future scenarios, or making informed financial decisions. This course equips learners with the practical tools and techniques needed to build clear, reliable financial models that support forecasting, valuation, budgeting, and strategic planning across a range of professional contexts.
+
+Description
+This course provides a comprehensive introduction to financial modelling, guiding learners through the principles, structures, and best practices used to create accurate and effective financial models. Beginning with the foundations of spreadsheet design and data organisation, participants will learn how to build models that are logical, transparent, and easy to audit. The course covers key components of professional financial models, including historical analysis, forecasting methods, scenario testing, and sensitivity analysis. Learners will construct core financial models such as integrated three-statement models, cash-flow forecasts, and valuation models using techniques like discounted cash flow (DCF). Emphasis is placed on developing sound assumptions, applying consistent formulas, and using modelling conventions that ensure clarity and reliability. Participants will also explore how financial models inform real-world decisions such as investment appraisals, budgeting, pricing, and assessing business performance. By the end of the course, learners will be able to design, build, and interpret financial models with accuracy and confidence. They will understand how to apply modelling insights to support strategic planning, assess financial risks, and deliver well-structured analyses suitable for professional financial environments.
+
+
+
+Unit 1: Create reports from multiple sources
+1. Creating a pivot table to use as a database. 2. Consolidating multiple pivot tables. 3. Updating multiple pivot tables.
+
+Unit 2: Converting multiple columns into a database format
+Converting multiple columns into a database format
+
+Unit 3: Simplifying reporting
+1. Introduction. 2. Setting up the structure. 3. Checking source data. 4. Consolidating source data. 5. Creating a mapping table, mapping data and validating mapping. 6. Complete the report.
+
+
+Unit 4: Automatic reconciliations
+1. Introduction. 2. Numbering data automatically and making it unique. 3. Steps in reconciling data (one list) . 4. Reconciling one list.
+
+Unit 5: Reporting by using the indirect formula
+1. Introduction. 2. Using indirect formula to report on column format data.
+
+
+Unit 6: Compiling an age analysis
+1. Introduction. 2. Fixing the dates and calculating the number of days old. 3. Creating the mapping table. 4. Finishing the age analysis and reporting.
+
+Unit 7: Amortisation tables
+1. Amortisation table where the rates stay consistent. 2. Amortisation tables where the rates and capital payments can change.
+
+Unit 8: Cash flows
+1.Introduction. 2. Fixing the signage. 3. Creating adjustment columns. 4. Creating a mapping table. 5. Finishing the cash flow statement.

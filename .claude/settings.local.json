@@ -18,7 +18,9 @@
       "Bash(findstr:*)",
       "Bash(del categorize_courses.py)",
       "Bash(git add:*)",
-      "Bash(del \",  -replace \")"
+      "Bash(del \",  -replace \")",
+      "Bash(del why-us.html)",
+      "Bash(del update_footers.py)"
     ],
     "deny": [],
     "ask": []

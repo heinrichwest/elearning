@@ -1,0 +1,26 @@
+Solving Problems with Data and Probability
+No Ratings Yet
+Duration:
+3h 20m
+Tags
+Administration and Office Skills
+Business Analysis and Data Skills
+Work Readiness
+Overview
+Sound decision-making in business, research and everyday problem-solving relies on the ability to collect, interpret and apply statistical information accurately. This course equips learners with essential statistical skills—ranging from data collection and representation to probability, modelling and interpretation—to address real-world issues using valid and meaningful evidence.
+
+Description
+This course provides a structured introduction to practical statistics, enabling learners to identify problems that can be analysed statistically, gather reliable data, and apply appropriate statistical techniques to draw justified conclusions. Designed for real-world application, it guides learners through the full statistical process, from identifying variables to interpreting results and communicating findings. By the end of this course, learners will be able to apply statistical reasoning confidently, choose suitable analytical methods, interpret data responsibly and use evidence to support conclusions, predictions and decision-making in a wide range of contexts.
+
+
+
+Unit 1: Pose questions, collect and organise data
+1. Situations or issues that can be dealt with through statistical methods are identified correctly. 2. Variables contributing to a problem situation are identified and addressed in data gathering, e.g. crime is related to the time of day and location. 3. Appropriate and efficient methods are used to collect, record, and organise data. 4. Data samples are of adequate size and are representative of the population.
+
+
+Unit 2: Represent, analyse and interpret data using various techniques
+1. Graphical representations and numerical summaries are consistent with the data, are clear and appropriate to the situation and target audience. 2. Different representations of aspects of the data are compared to take a position on the issue. 3. Calculations and the use of statistics are correct and appropriate to the problem. 4. Interpretations of statistics are justified and applied to answer questions about the problem. 5. New questions that arise from the modeling of the data are discussed.
+
+Unit 3: Use random events to explore and apply, probability concepts in simple life
+1. Data are gathered, organised, sorted and classified in a suitable manner for further processing and analysis. 2. Experiments and simulations are chosen appropriately in terms of the situation to be investigated. 3. Probabilities are determined correctly. 4. Distinctions are correctly made between theoretical and experimental probabilities. 5. Predictions are based on validated experimental or theoretical probabilities. 6. The outcomes of experiments and simulations are communicated clearly.
+

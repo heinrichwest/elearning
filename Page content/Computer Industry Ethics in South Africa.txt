@@ -1,0 +1,25 @@
+Duration:
+2h 40m
+
+
+
+Information Technology
+
+
+Overview
+Beyond the lines of code and digital systems lies a framework of integrity, where ethical conduct and professional standards shape the future of South Africa’s computer industry.
+
+Description
+This course explores the principles of ethics and professionalism within the South African computer industry. Learners will examine acceptable and unacceptable industry practices, become familiar with key professional bodies, and understand the importance of codes of practice in guiding responsible behaviour. The course highlights the industry’s commitment to equality, the fight against software piracy, and the practical ways in which these issues are addressed locally. Through this, students will develop an informed perspective on their role in promoting ethical standards and professional conduct in the ICT environment.
+
+
+Unit 1: Describe professionalism for the computer industry in South Africa
+
+1. The description identifies acceptable and unacceptable professional practices found in the computer industry. 2. The description identifies known professional bodies in South Africa. 3. A short description of each named professional body is provided.
+
+Unit 2: Describe the codes of practice for professionalism in the IT industry in South Africa
+1. The description identifies the codes of practice for the IT industry in South Africa. 2. The description provides a brief explanation of the codes of practice identified.
+
+Unit 3: Describe the code of ethics in the computer industry in South Africa
+1. The description confirms that the computer industry supports equality of opportunity. 2. The description confirms the understanding that the computer industry is against computer software piracy. 3. The description identifies ways in which piracy is addressed in South Africa.
+

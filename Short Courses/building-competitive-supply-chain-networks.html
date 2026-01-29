@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building Competitive Supply Chain Networks | eLearning SA</title>
+    <meta name="description"
+        content="Build resilient supply chain infrastructure. Master site location, facility layout, logistics system design, and organizational structuring for competitive advantage.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
+    <script src="../vendors/overlayscrollbars/OverlayScrollbars.min.js"></script>
+
+    <link href="../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../vendors/hamburgers/hamburgers.min.css" rel="stylesheet">
+    <link href="../vendors/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="../assets/css/theme.css" rel="stylesheet" />
+    <link href="../assets/css/user.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;600;700;800&amp;display=swap"
+        rel="stylesheet">
+
+    <style>
+        .card-hover {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card-hover .badge-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #12265E 0%, #0d1940 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .card-hover h5 {
+            color: #12265E;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .card-hover p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .card-hover .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #FFA600 0%, #ff8c00 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
+        <div class="container">
+            <div class="row align-items-center gx-4">
+                <div class="col-auto d-none d-lg-block fs--1"><span class="fas fa-graduation-cap text-warning me-2"
+                        data-fa-transform="grow-3"></span>Professional Online Training &amp; Certification</div>
+                <div class="col-auto ms-md-auto order-md-2 d-none d-sm-flex fs--1 align-items-center"><span
+                        class="fas fa-clock text-warning me-2" data-fa-transform="grow-3"></span>24/7 Online Access to
+                    Courses</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sticky-top navbar-elixir">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="../index.html"><img
+                        src="../assets/img/TAP-Logo-Transparent-Background.png" alt="eLearning SA Logo"
+                        height="50" /></a>
+                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span
+                            class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+                <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
+                    <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1">
+                        <li class="nav-item"><a class="nav-link" href="../index.html" role="button">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about-us.html" role="button">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../tap-edge.html" role="button">TAP Edge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../tap-business.html" role="button">TAP
+                                Business</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../short-courses.html" role="button">Short
+                                Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../contact-us.html" role="button">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto">
+                        <a class="btn btn-primary" href="https://app.tap.co.za/login" target="_blank"
+                            style="transition: background-color 0.3s ease, color 0.3s ease;"
+                            onmouseover="this.style.backgroundColor='#FFA600'; this.style.color='white'"
+                            onmouseout="this.style.backgroundColor='#2A3855'; this.style.color='white'">Log In</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <main class="main" id="top">
+        <div class="preloader" id="preloader">
+            <div class="loader">
+                <div class="line-scale">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="bg-primary py-8">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb breadcrumb-light">
+                                <li class="breadcrumb-item"><a href="../index.html" class="text-white">Home</a></li>
+                                <li class="breadcrumb-item"><a href="../short-courses.html"
+                                        class="text-white">Courses</a></li>
+                                <li class="breadcrumb-item active" style="color: #FFA600;" aria-current="page">Building
+                                    Competitive Supply Chain Networks</li>
+                            </ol>
+                        </nav>
+                        <h1 class="fs-4 fs-md-5 text-white mt-4">Building Competitive Supply Chain Networks</h1>
+                        <p class="lead text-white mt-3">Beneath the visible movement of goods lies a deeper
+                            structure—carefully chosen sites, layouts, systems, and roles—that silently determine who
+                            stays ahead.</p>
+                        <div class="mt-5">
+                            <a class="btn btn-warning btn-lg me-3"
+                                href="https://app.tap.co.za/signup?referral=elearningcoza" target="_blank"
+                                style="transition: background-color 0.3s ease, color 0.3s ease;"
+                                onmouseover="this.style.backgroundColor='white'; this.style.color='#FFA600'"
+                                onmouseout="this.style.backgroundColor='#FFA600'; this.style.color='#2A3855'">Sign
+                                Up</a>
+                            <a class="btn btn-outline-light btn-lg" href="#course-details">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mt-5 mt-lg-0 text-center">
+                        <img src="../assets/course images/Building Competitive Supply Chain Networks.webp"
+                            alt="Supply Chain Management Training" class="img-fluid rounded-3 shadow-lg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Overview -->
+        <section class="bg-white" id="course-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="fs-2 fs-md-3">Course Overview</h2>
+                        <p class="lead mt-3">This course equips learners with the tools and frameworks needed to build a
+                            resilient and competitive supply chain infrastructure. From site location analysis and
+                            facility layout design to logistics system planning and organisational structuring,
+                            participants apply decision-making models to real or simulated scenarios. The curriculum
+                            bridges operational design with strategic intent to ensure supply chains are not just
+                            efficient, but future-ready.</p>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 mb-4">
+                                <div class="text-center">
+                                    <div class="ring-icon mx-auto bg-soft-primary mb-3">
+                                        <span class="fas fa-clock text-primary"></span>
+                                    </div>
+                                    <h5>Duration</h5>
+                                    <p class="mb-0">3 hours 40 minutes<br />Self-paced learning</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="text-center">
+                                    <div class="ring-icon mx-auto bg-soft-warning mb-3">
+                                        <span class="fas fa-certificate text-warning"></span>
+                                    </div>
+                                    <h5>Certification</h5>
+                                    <p class="mb-0">Certificate<br />Upon completion</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="text-center">
+                                    <div class="ring-icon mx-auto bg-soft-warning mb-3">
+                                        <span class="fas fa-signal text-warning"></span>
+                                    </div>
+                                    <h5>All Levels</h5>
+                                    <p class="mb-0"><br /></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="fs-1 fs-md-2 mt-6">What You will Learn</h3>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Site location decision tools and methods</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Critical factor evaluation for site selection
+                                    </li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Facility layout design objectives</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Materials handling requirements</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Traditional and modern layout designs</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Logistics system design concepts</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Organizational strategy alignment</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Supply chain organizational structures</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Resource requirements planning</li>
+                                    <li class="mb-3"><span class="fas fa-check-circle me-2"
+                                            style="color: #FFA600;"></span>Infrastructure design for competitive
+                                        advantage</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 class="fs-1 fs-md-2 mt-6">Course Curriculum</h3>
+                        <div class="accordion mt-4" id="curriculumAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Unit 1: Site Location Decision Tools and Methods
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#curriculumAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Examining and evaluating factors impacting site location</li>
+                                            <li>Utilizing specific tools and methods in accordance with general
+                                                procedures</li>
+                                            <li>Identifying and evaluating critical factors influencing site location
+                                                decisions</li>
+                                            <li>Using structured rational processes for site location decision-making
+                                            </li>
+                                            <li>Applying decision frameworks to simulated or real scenarios</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Unit 2: Facility Layout Design
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#curriculumAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Analysing facility layout objectives to inform design decisions</li>
+                                            <li>Identifying and evaluating processes and products impacting layout</li>
+                                            <li>Designing layouts in accordance with materials handling requirements
+                                            </li>
+                                            <li>Illustrating traditional or modern layouts</li>
+                                            <li>Tailoring facility designs to specific product and process requirements
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Unit 3: Effective and Competitive Logistics System Design
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#curriculumAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Evaluating logistics system concepts and their influence on design</li>
+                                            <li>Designing systems in line with organizational strategy</li>
+                                            <li>Aligning logistics systems with site location parameters</li>
+                                            <li>Incorporating resource requirements planning into system design</li>
+                                            <li>Building competitive advantage through logistics infrastructure</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Unit 4: Supply Chain Organizational Structures
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#curriculumAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Identifying and sourcing information requirements for effective supply
+                                                chain management</li>
+                                            <li>Determining key elements that define organizational structures</li>
+                                            <li>Evaluating supply chain infrastructure concepts</li>
+                                            <li>Developing organizational structures for effective supply chain
+                                                management</li>
+                                            <li>Applying structure design to real-world scenarios</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            #curriculumAccordion .accordion-button {
+                                background-color: #12265E;
+                                color: white;
+                                font-weight: 500;
+                            }
+
+                            #curriculumAccordion .accordion-button:not(.collapsed) {
+                                background-color: #ffa600;
+                                color: white;
+                                box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+                            }
+
+                            #curriculumAccordion .accordion-button:hover {
+                                background-color: #ffa600;
+                                color: white;
+                            }
+
+                            #curriculumAccordion .accordion-button:focus {
+                                box-shadow: 0 0 0 0.25rem rgba(255, 166, 0, 0.25);
+                                border-color: #ffa600;
+                            }
+
+                            #curriculumAccordion .accordion-button::after {
+                                filter: brightness(0) invert(1);
+                            }
+                        </style>
+                    </div>
+
+                    <div class="col-lg-4 mt-5 mt-lg-0">
+                        <div class="sticky-top"
+                            style="top: 100px; border: 1px solid #dee2e6; border-radius: 0.25rem; padding: 1rem; background-color: #fff;">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>12 Months
+                                            course access</li>
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>3h 40m of
+                                            content</li>
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>Video
+                                            tutorials</li>
+                                        <li class="mb-2"><span
+                                                class="fas fa-check text-success me-2"></span>Downloadable resources
+                                        </li>
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>Practice
+                                            exercises</li>
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>Certificate
+                                            of completion</li>
+                                        <li class="mb-2"><span class="fas fa-check text-success me-2"></span>Email
+                                            support</li>
+                                    </ul>
+                                    <a class="btn btn-primary w-100 mb-3"
+                                        href="https://app.tap.co.za/signup?referral=elearningcoza" target="_blank"
+                                        style="transition: background-color 0.3s ease, color 0.3s ease;"
+                                        onmouseover="this.style.backgroundColor='white'; this.style.color='#2A3855'"
+                                        onmouseout="this.style.backgroundColor='#2A3855'; this.style.color='white'">Sign
+                                        Up</a>
+                                </div>
+                            </div>
+
+                            <div class="card mt-4">
+                                <div class="card-body p-4">
+                                    <h5 class="mb-3">Need Help?</h5>
+                                    <p class="mb-3">Our team is here to answer any questions about this course.</p>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><span class="fas fa-phone text-primary me-2"></span><a
+                                                href="tel:+27126674962">012 667 4962</a></li>
+                                        <li class="mb-2"><span class="fas fa-envelope text-primary me-2"></span><a
+                                                href="mailto:help@speccon.co.za">help@speccon.co.za</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who Should Take This Course -->
+        <section class="bg-100">
+            <div class="container">
+                <div class="text-center mb-6">
+                    <h3 class="fs-2 fs-md-3">Who Should Take This Course?</h3>
+                    <hr class="short" />
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card-hover">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-truck"></span>
+                            </div>
+                            <div class="badge-tag">Supply Chain</div>
+                            <h5>Supply Chain Managers</h5>
+                            <p>Professionals responsible for designing and optimizing supply chain networks and
+                                infrastructure.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card-hover">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-warehouse"></span>
+                            </div>
+                            <div class="badge-tag">Logistics</div>
+                            <h5>Logistics Professionals</h5>
+                            <p>Logistics specialists who design and implement distribution systems and facility layouts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card-hover">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-chart-line"></span>
+                            </div>
+                            <div class="badge-tag">Operations</div>
+                            <h5>Operations Managers</h5>
+                            <p>Operations leaders who make strategic decisions about site locations and organizational
+                                structures.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card-hover">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-sitemap"></span>
+                            </div>
+                            <div class="badge-tag">Strategic Planning</div>
+                            <h5>Business Strategists</h5>
+                            <p>Strategic planners who develop competitive advantage through supply chain infrastructure
+                                design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="bg-white">
+            <div class="container">
+                <div class="text-center mb-6">
+                    <h3 class="fs-2 fs-md-3">Course Benefits</h3>
+                    <hr class="short" />
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-map-marked-alt text-primary fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Strategic Site Selection</h5>
+                                <p>Master tools and methods for making informed site location decisions that drive
+                                    competitive advantage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-drafting-compass text-success fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Optimal Facility Design</h5>
+                                <p>Learn to design efficient facility layouts that maximize productivity and minimize
+                                    costs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-network-wired text-warning fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Competitive Systems</h5>
+                                <p>Build logistics systems aligned with organizational strategy for sustained
+                                    competitive performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-cubes text-info fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Practical Application</h5>
+                                <p>Apply decision-making models to real or simulated scenarios for hands-on learning
+                                    experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-shield-alt text-danger fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Resilient Infrastructure</h5>
+                                <p>Design supply chain infrastructure that is not just efficient, but future-ready and
+                                    resilient.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <span class="fas fa-briefcase text-success fs-1"></span>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5>Career Advancement</h5>
+                                <p>Gain specialized skills in supply chain infrastructure design for career growth
+                                    opportunities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-primary py-6 text-center">
+            <div class="container">
+                <h3 class="text-white mb-4">Ready to Build Competitive Supply Chain Networks?</h3>
+                <p class="text-white lead mb-4">Master the infrastructure design that determines who stays ahead in
+                    today's competitive marketplace</p>
+                <a class="btn btn-warning btn-lg" href="https://app.tap.co.za/signup?referral=elearningcoza"
+                    target="_blank">Sign Up Today!</a>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer
+        style="background: linear-gradient(135deg, #12265E 0%, #0d1940 100%); position: relative; border-top: 4px solid #FFA600;">
+        <div class="container py-5">
+            <div class="row g-4">
+                <!-- About Section -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="mb-4">
+                        <img src="../assets/img/TAP-Logo-Transparent.png" alt="eLearning SA Logo" height="60"
+                            class="mb-3" />
+                    </div>
+                    <p style="color: white; font-size: 14px; line-height: 1.8;">
+                        Empowering individuals and organisations through innovative online learning solutions. Transform
+                        your future
+                        with our comprehensive training programs.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">
+                        Quick Links
+                    </h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Home
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="tap-edge.html" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>TAP Edge
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="tap-business.html" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>TAP Business
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="short-courses.html" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>All Courses
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">
+                        About Us
+                    </h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#termsConditionsModal"
+                                class="text-decoration-none" style="color: white; transition: color 0.3s;"
+                                onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Terms and Conditions
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="faqs.html" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>FAQs
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal"
+                                class="text-decoration-none" style="color: white; transition: color 0.3s;"
+                                onmouseover="this.style.color='#FFA600'" onmouseout="this.style.color='white'">
+                                <i class="fas fa-chevron-right me-2" style="font-size: 10px;"></i>Privacy Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3 pb-2" style="border-bottom: 3px solid #FFA600; display: inline-block;">
+                        Contact Us
+                    </h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-3" style="color: white;">
+                            <i class="fas fa-phone me-2" style="color: #FFA600;"></i>
+                            <a href="tel:+27126674962" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">012 667 4962</a>
+                        </li>
+                        <li class="mb-3" style="color: white;">
+                            <i class="fas fa-envelope me-2" style="color: #FFA600;"></i>
+                            <a href="mailto:Help@speccon.co.za" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">Help@speccon.co.za</a>
+                        </li>
+                        <li class="mb-3" style="color: white;">
+                            <i class="fas fa-globe me-2" style="color: #FFA600;"></i>
+                            <a href="https://app.tap.co.za" target="_blank" class="text-decoration-none"
+                                style="color: white; transition: color 0.3s;" onmouseover="this.style.color='#FFA600'"
+                                onmouseout="this.style.color='white'">Learning Platform</a>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <h6 class="text-white mb-3">Follow Us</h6>
+                        <div class="d-flex gap-2">
+                            <a href="https://www.linkedin.com/company/elearning-co-za/" target="_blank"
+                                class="text-decoration-none"
+                                style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;"
+                                onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'"
+                                onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/elearning.co.za/" target="_blank"
+                                class="text-decoration-none"
+                                style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;"
+                                onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'"
+                                onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/TapEdge" target="_blank" class="text-decoration-none"
+                                style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; transition: all 0.3s;"
+                                onmouseover="this.style.background='#FFA600'; this.style.transform='translateY(-3px)'"
+                                onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.transform='translateY(0)'">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="row mt-5 pt-4" style="border-top: 1px solid rgba(255,255,255,0.1);">
+                <div class="col-12 text-center">
+                    <p class="mb-0" style="color: white; font-size: 14px;">
+                        &copy; 2026 eLearning South Africa. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Terms and Conditions Modal -->
+    <div class="modal fade" id="termsConditionsModal" tabindex="-1" aria-labelledby="termsConditionsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content"
+                style="background: linear-gradient(135deg, #12265E 0%, #0d1940 100%); border: 3px solid #FFA600;">
+                <div class="modal-header" style="border-bottom: 2px solid #FFA600;">
+                    <h5 class="modal-title text-white" id="termsConditionsModalLabel"><i
+                            class="fas fa-file-contract me-2" style="color: #FFA600;"></i>Terms and Conditions</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: white;">
+                    <h6 style="color: #FFA600; font-weight: bold;">Introduction</h6>
+                    <p>Welcome to SpecCon Holdings (Pty) Ltd's online skills development, training, and learning
+                        platforms, available through websites such as www.speccon.co.za and www.elearning.co.za. These
+                        platforms are provided by SpecCon Holdings (Pty) Ltd., and your use is governed by the terms and
+                        conditions outlined below.</p>
+                    <p style="margin-top: 1.5rem;">These terms are effective upon accessing the Site and continue until
+                        terminated. Certain provisions survive termination. Governing law is South Africa, and disputes
+                        shall be resolved through arbitration.</p>
+                    <p style="margin-top: 1.5rem;"><strong>Thank you for choosing SpecCon!</strong></p>
+                    <p style="margin-top: 1rem;">If you have any questions or concerns regarding these Terms and
+                        Conditions, please contact us at <a href="mailto:itsupport@elearning.co.za"
+                            style="color: #FFA600; text-decoration: none;">itsupport@elearning.co.za</a></p>
+                </div>
+                <div class="modal-footer" style="border-top: 2px solid #FFA600;">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content" style="background: white; border: 3px solid #FFA600;">
+                <div class="modal-header" style="border-bottom: 2px solid #FFA600;">
+                    <h5 class="modal-title" style="color: #12265E;" id="privacyPolicyModalLabel"><i
+                            class="fas fa-shield-alt me-2" style="color: #FFA600;"></i>Privacy Policy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: #12265E;">
+                    <h6 style="color: #FFA600; font-weight: bold;">Introduction</h6>
+                    <p>Welcome to SpecCon! As the internet transcends borders, using it to collect and process personal
+                        data involves global data transmission. By browsing our website, you acknowledge and agree to
+                        how we handle your personal data. Your use of any SpecCon website signifies your agreement to be
+                        bound by this privacy policy.</p>
+                    <p style="margin-top: 1.5rem;">This privacy policy aims to be transparent about our practices. If
+                        you have any questions or concerns, feel free to contact us at <a
+                            href="mailto:Help@speccon.co.za"
+                            style="color: #FFA600; text-decoration: none;">Help@speccon.co.za</a></p>
+                </div>
+                <div class="modal-footer" style="border-top: 2px solid #FFA600;">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/bigpicture/BigPicture.js"></script>
+    <script src="../vendors/countup/countUp.umd.js"></script>
+    <script src="../vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="../vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../vendors/gsap/gsap.js"></script>
+    <script src="../vendors/gsap/customEase.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

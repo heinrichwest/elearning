@@ -1,0 +1,24 @@
+Duration:
+3h 40m
+Tags
+Supply Chain and Logistics
+Overview
+Beneath the visible movement of goods lies a deeper structure—carefully chosen sites, layouts, systems, and roles—that silently determine who stays ahead.
+
+Description
+This course equips learners with the tools and frameworks needed to build a resilient and competitive supply chain infrastructure. From site location analysis and facility layout design to logistics system planning and organisational structuring, participants apply decision-making models to real or simulated scenarios. The curriculum bridges operational design with strategic intent to ensure supply chains are not just efficient, but future-ready.
+
+
+
+Unit 1: Use a variety of tools and methods to facilitate the site location decision
+1. A site decision is made by examining and evaluating possible factors impacting on site location. 2. The site location decision is made by utilising specific tools and methods in accordance with general procedures. 3. Critical factors are identified and evaluated to determine their influence on a site location decision. 4. A structured rational process is used to facilitate the decision regarding site location using a simulated or real scenario.
+
+Unit 2: Use a variety of tools and methods to facilitate the design of the facility layout
+1. The objectives of facility layouts are analysed to inform decisions on the tools and methods to use for the design process. 2. Processes and products that will impact on facility layouts are identified and evaluated. 3. Facility layouts are designed in accordance with materials handling requirements. 4. The facility layouts are designed by illustrating traditional or modern layouts to suit specific product and process requirements.
+
+Unit 3: Design an effective and competitive logistics system
+1. Concepts of logistics systems are evaluated to determine their influence on design processes. 2. An effective and competitive logistics system is designed in line with the organisational strategy. 3. The logistics system is designed in accordance with parameters of the site location. 4. The logistics system is designed in accordance with resource requirements planning
+
+Unit 4: Initiate and participate in the establishment of supply chain organisational structures
+1. Information requirements for effective supply chain management are identified and sourced. 2. Key elements that define organisational structures are determined to evaluate their impact on supply chain infrastructure. 3. Concepts of supply chain infrastructure are evaluated to determine their influence on the establishment of supply chain organisational structures. 4. An organisational structure is developed in a given scenario that will facilitate effective supply chain management.
+
